@@ -1,0 +1,176 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	text-align: center;
+	background: black;
+}
+
+svg{
+	background: white;
+	margin-top:30px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.person0{
+	stroke: red !important;
+}
+.person1{
+	stroke: green !important;
+}
+.person2{
+	stroke: blue !important;
+}
+
+.person0text{
+	fill: red !important;
+}
+.person1text{
+	fill: green !important;
+}
+.person2text{
+	fill: blue !important;
+}
+
+#contentHTML {
+	width: 1024px;
+	height: 768px;
+	position: absolute;
+	top: 38px;
+	left: 50%;
+	padding: 60px;
+	box-sizing: border-box;
+	margin-left: -512px;
+	pointer-events: none;
+}
+
+.presTriangle{
+	fill: rgb(0,118,112);
+	stroke-width:0;
+}
+
+.dwdHeader {
+	font-family: Lubalin; 
+	font-weight: bold;
+	fill: rgb(54,54,54);
+	font-size: 42pt;
+	text-anchor: middle;
+}
+
+.dwdFooter {
+	font-family: HelvNeue;
+	fill: rgb(54,54,54);
+	font-size: 22pt;
+	text-anchor: middle;
+}
+
+.dataProcessList text{
+	font-family: HelvNeue;
+	font-size: 26pt;
+}
+
+#slide-left{
+	height: 70px;
+	width: 50%;
+	float: left;
+}
+
+#slide-left:hover{
+	background-color: #111;
+	cursor: pointer;
+}
+
+#slide-right{
+	height: 70px;
+	width: 50%;
+	float: right;
+}
+
+#slide-right:hover{
+	background-color: #111;
+	cursor: pointer;
+}
+
+/* Flow Chart CSS */
+
+.node {
+	stroke: black;
+	fill: white;
+	stroke-width: 1px;
+}
+
+.node text{
+	font-size:12pt;
+	font-family:Arial;
+	fill:black;
+	stroke:none;
+	cursor:default;
+}
+
+.node:hover{
+	stroke-width: 2px;
+}
+
+.link {
+	stroke: #777;
+}
+
+.toRgn{
+	fill: white;
+	stroke: black;
+	stroke-width: 1px;
+}
+
+.fromRgn{
+	fill: white;
+	stroke: black;
+	stroke-width: 1px;
+}
+
+.rgnLabel {
+	font-size:20pt;
+	font-family:Arial;
+	fill:black;
+	stroke:none;
+	cursor:default;
+}
+
+.tooltip{
+	position: absolute;
+	z-index: 10;
+	visibility: hidden;
+	border: 1px solid black;
+	padding: 5px;
+	background-color: beige;
+}
+
+/* Fonts */
+
+@font-face { 
+    font-family: HelvNeue; 
+    src: url('fonts/helvneuelightforibm-webfont.eot');
+    src: url('fonts/helvneuelightforibm-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helvneuelightforibm-webfont.woff') format('woff'),
+         url('fonts/helvneuelightforibm-webfont.ttf') format('truetype'),
+         url('fonts/helvneuelightforibm-webfont.svg#helvneue_light_for_ibmRg') format('svg');
+}
+
+@font-face { 
+    font-family: HelvNeue;  font-weight: bold;
+    src: url('fonts/helvneuemediumforibm-webfont.eot');
+    src: url('fonts/helvneuemediumforibm-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helvneuemediumforibm-webfont.woff') format('woff'),
+         url('fonts/helvneuemediumforibm-webfont.ttf') format('truetype'),
+         url('fonts/helvneuemediumforibm-webfont.svg#helvneue_medium_for_ibmRg') format('svg');
+}
+ 
+ @font-face { font-family: Lubalin; src: url('fonts/LubalinBookforIBM.otf'); } 
+ @font-face { font-family: Lubalin; font-style: italic; src: url('fonts/LubalinBookItalicforIBM.otf');}
+ @font-face { font-family: Lubalin; font-weight: bold; src: url('fonts/LubalinDemiforIBM.otf');}
+ @font-face { font-family: Lubalin; font-weight: bold; font-style: italic; src: url('fonts/LubalinDemiItalicforIBM.otf');}
+ 

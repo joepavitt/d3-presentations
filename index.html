@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Designing With Data</title>
+	<script src="d3/d3.min.js"></script>
+	<script src="lodash/lodash.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/underground.css">
+	<link rel="stylesheet" type="text/css" href="css/persecond.css">
+</head>
+
+<body>
+	<svg id="slide" width="1024" height="768">
+		<g id="content" width="1024" height="768">
+		</g>
+		<g id="background">
+			<!-- <polygon points="0,0 1024,0 0,70" class="presTriangle" />
+			<polygon points="1025,768 0,768 1025,698" class="presTriangle" />
+			<text x="512" y="354" class="dwdHeader" id="slideTitle">Designing with Data</text>
+			<g class="dwdFooter">
+				<text x="512" y="404" id="slideUserName">Joe Pavitt</text>
+				<text x="512" y="442" id="slideUserTitle">UI Designer & Developer, CICS Tools</text>
+			</g> -->
+		</g>
+	</svg>
+	<div id="controls">
+		<div id="slide-left" onclick="back()">
+		</div>
+		<div id="slide-right" onclick="forward()">
+		</div>
+	</div>
+	<div id="contentHTML">
+	</div>
+
+	<script src="js/cicsnetwork.js" type="text/javascript"></script>
+	<script src="js/underground_latlong.js" type="text/javascript"></script>
+	<script src="js/thingspersecond.js" type="text/javascript"></script>
+	<script src="js/functions.js" type="text/javascript"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: dwd
+  name: dwd
+  memory: 64M
+  domain: mybluemix.net
+  stack: cflinuxfs2

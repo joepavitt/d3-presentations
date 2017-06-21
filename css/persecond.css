@@ -1,0 +1,30 @@
+.persecond-chart-title {
+	font-size: 20px;
+	alignment-baseline: hanging;
+	text-anchor: middle;
+	font-family: HelvNeue;
+	font-weight: bold;
+}
+
+.persecond-row text {
+	font-size: 12px;
+	font-family: HelvNeue;
+	alignment-baseline: central;
+	text-anchor: start;
+}
+
+.persecond-row text.persecond-counter {
+	font-size: 16px;
+	font-family: HelvNeue;
+	alignment-baseline: central;
+	text-anchor: middle;
+}
+
+.persecond-row text.persecond-label {
+	text-anchor: middle;
+}
+
+.x.axis .tick text {
+	font-size: 12px;
+	font-family: HelvNeue;
+}
